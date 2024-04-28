@@ -1,0 +1,129 @@
+.background {
+    position: relative; 
+}
+.wow{
+    position: relative;
+    width: 100%;
+}
+.iq{
+    position: absolute;
+    left: 2%;
+    top: 2%;
+    width: 120px;
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+}
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.book{
+    position: absolute;
+    left: 20%;
+    top: 10%;
+    width: 200px;
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.book2{
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    width: 200px;
+    animation: mymove 3s;
+    animation-iteration-count: 3;
+}
+
+@keyframes mymove {
+  from {top: 0px;}
+  to {top: 200px;}
+}
+
+.pano{
+    position: absolute;
+    font-family: fantasy;
+    font-size: 32px;
+    color: rgb(242, 137, 155);
+    top: 20%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+p:hover {
+  background-color: yellow;
+}
+
+.big{
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    width: 120px;
+    animation: big 4s ease-in-out infinite;
+}
+@keyframes big {
+  25% {
+    top: 70%;
+  }
+  30% {
+    top: 65%;
+  }
+  35% {
+    top: 70%;
+  }
+  40% {
+    top: 65%;
+  }
+  45% {
+    top: 70%;
+  }
+  50% {
+    top: 65%;
+  }
+  55% {
+    top: 70%;
+}
+  60% {
+    top: 65%;
+  }
+  65% {
+    top: 70%;
+  }
+  75% {
+    top: 65%;
+  }
+  80% {
+    top: 70%;
+  }
+  85% {
+    top: 65%;
+  }
+  90% {
+    top: 70%;
+  }
+  95% {
+    top: 65%;
+  }
+  100% {
+    left: 100%;
+    top: 70%;
+  }
+}
+.anim{
+    position: absolute;
+    left: 80%;
+    top: 40%;
+    width: 200px;
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
